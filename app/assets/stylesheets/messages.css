@@ -1,0 +1,51 @@
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+/* 画面左 */
+.left_side {
+  width: 300px;
+  background-color: #253141;
+
+}
+
+.side_header {
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+}
+
+
+.room_list {
+  background-color: #2F3E51;  
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+
+
+/* 画面右 */
+.right_side {
+  width: calc(100vw - 300px);
+
+}
+
+.main_header {
+  height: 100px;
+  background-color: #FFFFFF;
+  padding: 0 40px;
+}
+
+.chat_list {
+  background-color: #FAFAFA;  
+  height: calc(100vh - 190px);
+
+  padding: 46px 40px 0;
+}
+
+.chat_form {
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
