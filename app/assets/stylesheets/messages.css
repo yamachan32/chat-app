@@ -15,6 +15,25 @@
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.create_room a{
+  padding: 14px;
+  font-size: 10px;
+  color: deepskyblue;
+  margin-right: 20px;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 
 
@@ -22,8 +41,16 @@
   background-color: #2F3E51;  
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
+.room {
+  padding: 20px 0 40px;
+}
+
+.room_name a{
+  color: white;
+  text-decoration: none;
 
 /* 画面右 */
 .right_side {
