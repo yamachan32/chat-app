@@ -9,7 +9,7 @@
   </div>
 
 </div>
-
+<%# 
 <div class = 'messages'>
   <div class = 'message'>
     <div class = 'chat_title'>
@@ -24,24 +24,11 @@
     <div class = 'chat_text'>
         <a href='#'>Chat text</a>
     </div>
-  </div>
+  </div> %>
 
-  <div class = 'message'>
-    <div class = 'chat_title'>
-      <div class = 'chat_user'>
-        <a href='#'>Chat User2</a>
-      </div>
-    
-      <div class = 'chat_date'>
-        <a href='#'>Chat date2</a>
-      </div>
-    </div>
-    <div class = 'chat_text'>
-        <a href='#'>Chat text2</a>
-    </div>
+  <div class = 'messages'>
+   <%= render partial: 'message', collection: @messages %>
   </div>
-
-</div>
 
 <%= form_with model: [@room, @message], class: 'chat_form', local: true do |f| %>
   <div class="form-input">
